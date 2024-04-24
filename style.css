@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	text-decoration: none;
+    list-style: none;
+	outline: none;
+	box-sizing: border-box;
+}
+.hero-text {
+    width: 360px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./images/product-2.jpg");
+    transition: .4s;
+}
+
+.hero-text:nth-child(2) {
+    background-image: url("./images/product-1.jpg");
+}
+
+.hero-text:nth-child(2):hover {
+    background-image: url("./images/product-1_0.jpg");
+}
+
+.hero-text:hover {
+    background-repeat: no-repeat;
+    background-image: url("./images/product-2_0.jpg");
+}
+.container{
+    display: flex;
+}
